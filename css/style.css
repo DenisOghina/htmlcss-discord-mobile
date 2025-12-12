@@ -9,32 +9,70 @@ body {
 }
 header img {
     width: 512px;
-    padding: 0 0 30px 0;
+    padding: 0 0 45px 0;
 }
 main h1 {
     font-family: "Sigmar", sans-serif;
     font-weight: bold;
     font-style: normal;
-    color: white;
-    text-align: center;
-    padding: 20px 35px 0 35px;    
+    padding: 20px;
+    line-height: 1;
 }
 main p {
-    padding: 0 35px 0 35px;
-    color: white;
-    text-align: center;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-.first-button {
+main div {
+    color: white;
+    text-align: center;
+    max-width: 370px;
     position: relative;
-    right: -5%;
-    width: 440px;
-    height: 50px;
+    right: -67px;
+}
+.first-button {
+    width: 340px;
+    height: 45px;
     font-size: 18px;
     border-radius: 10px;
     border: none;
-    margin: 12px; 
-    cursor: pointer; 
+    margin: 15px; 
+    cursor: pointer;
+    position: relative;
+    right: -66px; 
+}
+svg {
+    position: absolute;
+    bottom: 50px;
+    left: 140px;
+}
+.second-button {
+    width: 340px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    right: -81px;
+    margin-bottom: 35px;
+    color: white;
+    background-color: #1B21E0;
+}
+.card {
+    background-color: #1B21E0;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: left;
+}
+.card h2 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    padding: 10px;
+}
+.card p {
+    
 }
