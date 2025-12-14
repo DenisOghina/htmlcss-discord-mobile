@@ -1,78 +1,77 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     width: 512px;
-    background-image: url(/img/background.png);
-    background-size: cover;
+    background-color: darkblue;
 }
 header img {
     width: 512px;
-    padding: 0 0 45px 0;
+    margin-bottom: 40px;
 }
-main h1 {
+.title {
     font-family: "Sigmar", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    padding: 20px;
-    line-height: 1;
-}
-main p {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-main div {
     color: white;
+    line-height: 1;
     text-align: center;
-    max-width: 370px;
-    position: relative;
-    right: -67px;
+    padding: 10px 80px;
+}
+p {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding: 0 70px;
 }
 .first-button {
-    width: 340px;
-    height: 45px;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 10px 75px;
     border-radius: 10px;
     border: none;
-    margin: 15px; 
+    margin: 10px 0 15px 0;
     cursor: pointer;
-    position: relative;
-    right: -66px; 
+    font-family: "DM Sans", sans-serif;
+}
+.primo-div {
+    text-align: center;
 }
 svg {
     position: absolute;
-    bottom: 50px;
-    left: 140px;
+    bottom: 78px;
+    left: 130px;
 }
 .second-button {
-    width: 340px;
-    height: 45px;
-    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    background-color: #495FE6;
+    padding: 10px 43px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    position: relative;
-    right: -81px;
-    margin-bottom: 35px;
-    color: white;
-    background-color: #1B21E0;
+    font-size: 20px;
+    margin: 0 0 50px 0;
 }
 .card {
-    background-color: #1B21E0;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: left;
+    background-image: url(/img/background.png);
+    background-size: cover;
+    position: relative;
+    margin: 0 50px;
+    border-radius: 20px;
+}
+.card img {
+    position: absolute;
+    top: -32px;
+    left: 43px;
 }
 .card h2 {
-    font-family: "Sigmar", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 1;
-    padding: 10px;
+    padding: 50px 135px 10px 20px;
+    text-align: left;
 }
 .card p {
-    
+    text-align: left;
+    padding: 0 45px 15px 19px;
+}
+.card video {
+    width: 100%;
+    padding-bottom: 30px;
 }
