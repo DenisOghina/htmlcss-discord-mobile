@@ -33,7 +33,7 @@ p {
     cursor: pointer;
     font-family: "DM Sans", sans-serif;
 }
-.primo-div {
+div {
     text-align: center;
 }
 svg {
@@ -55,13 +55,15 @@ svg {
     background-image: url(/img/background.png);
     background-size: cover;
     position: relative;
-    margin: 0 50px;
+    margin: 0 50px 45px 50px;
     border-radius: 20px;
 }
 .card img {
     position: absolute;
     top: -32px;
     left: 43px;
+    z-index: 1;
+    translate: 185% 0%;
 }
 .card h2 {
     padding: 50px 135px 10px 20px;
@@ -72,6 +74,6 @@ svg {
     padding: 0 45px 15px 19px;
 }
 .card video {
-    width: 100%;
-    padding-bottom: 30px;
+    position: relative;
+    left: 24%;
 }
