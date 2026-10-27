@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    width: 512px;
+    margin: 0 auto;
+    background-color: #191D7B;
+    font-family: "DmSans, sans-serif";
+    border: 1px solid black;
+}
+
+header img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "Sigmar", sans-serif;
+    color: #ffffff;
+    line-height: 1;
+    padding: 15px;
+}
+
+p {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+#download-button {
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#discord-button {
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: #5865F2;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#download-button,
+#discord-button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    border: none;
+    font-size: 17px;
+}
+
+.card {
+    padding: 25px 10px;
+    background: linear-gradient(to bottom, #2a2e8f, #5865F2);
+    border-radius: 30px;
+    color: #ffffff;
+    margin: 10px;
+    position: relative;
+    margin: 30px 25px 10px 25px;
+}
+
+.card img,
+.card video {
+    width: 100%;
+    display: block;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+button {
+    font-family: inherit;
+}
+
+.card .discord-cube,
+.card .eyes {
+    width: 110px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
